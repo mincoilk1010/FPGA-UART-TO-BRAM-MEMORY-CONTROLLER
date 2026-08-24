@@ -1,0 +1,86 @@
+[
+ {
+  "InstFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_bram_top.v",
+  "InstLine" : 3,
+  "InstName" : "uart_bram_top",
+  "ModuleFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_bram_top.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "uart_bram_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_bram_top.v",
+    "InstLine" : 24,
+    "InstName" : "FSM",
+    "ModuleFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_bram_ctrl.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "uart_bram_ctrl"
+   },
+   {
+    "InstFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_bram_top.v",
+    "InstLine" : 39,
+    "InstName" : "baud_gen",
+    "ModuleFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/baud_rate_gen.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "baud_rate_gen"
+   },
+   {
+    "InstFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_bram_top.v",
+    "InstLine" : 46,
+    "InstName" : "rcv",
+    "ModuleFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_rx.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "uart_rx"
+   },
+   {
+    "InstFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_bram_top.v",
+    "InstLine" : 58,
+    "InstName" : "transmit",
+    "ModuleFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_tx.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "uart_tx"
+   },
+   {
+    "InstFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_bram_top.v",
+    "InstLine" : 72,
+    "InstName" : "bram",
+    "ModuleFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/BRAM.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "BRAM"
+   }
+  ]
+ },
+ {
+  "InstFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_top.v",
+  "InstLine" : 2,
+  "InstName" : "uart_top",
+  "ModuleFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_top.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "uart_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_top.v",
+    "InstLine" : 17,
+    "InstName" : "uart_baud",
+    "ModuleFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/baud_rate_gen.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "baud_rate_gen"
+   },
+   {
+    "InstFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_top.v",
+    "InstLine" : 24,
+    "InstName" : "transmitter",
+    "ModuleFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_tx.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "uart_tx"
+   },
+   {
+    "InstFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_top.v",
+    "InstLine" : 34,
+    "InstName" : "receiver",
+    "ModuleFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_rx.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "uart_rx"
+   }
+  ]
+ }
+]

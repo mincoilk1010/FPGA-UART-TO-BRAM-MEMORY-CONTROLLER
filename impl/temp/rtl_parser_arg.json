@@ -1,0 +1,45 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/BRAM.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/baud_rate_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/config.vh",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_bram_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_bram_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/minh-bui/Desktop/UART_BLOCKRAM/src/uart_tx.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/home/minh-bui/Desktop/UART_BLOCKRAM/impl/temp/rtl_parser.result",
+ "Top" : "uart_bram_top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="uart_bram_top" T_Register="126(0)" T_Lut="134(0)" T_Bsram="1(0)">
+ <SubModule name="FSM" Register="68" Lut="22" T_Register="68(68)" T_Lut="22(22)"/>
+ <SubModule name="baud_gen" Register="12" Lut="18" T_Register="12(12)" T_Lut="18(18)"/>
+ <SubModule name="rcv" Register="30" Lut="64" T_Register="30(30)" T_Lut="64(64)"/>
+ <SubModule name="transmit" Register="16" Lut="30" T_Register="16(16)" T_Lut="30(30)"/>
+ <SubModule name="bram" Bsram="1" T_Bsram="1(1)"/>
+</Module>

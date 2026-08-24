@@ -1,0 +1,43 @@
+[*]
+[*] GTKWave Analyzer v3.3.126 (w)1999-2026 BSI
+[*] Mon Aug 24 11:16:59 2026
+[*]
+[dumpfile] "/home/minh-bui/Desktop/UART_BLOCKRAM/uart_bram_sim.vcd"
+[dumpfile_mtime] "Mon Aug 24 11:00:44 2026"
+[dumpfile_size] 85456034
+[savefile] "/home/minh-bui/Desktop/UART_BLOCKRAM/signal.gtkw"
+[timestart] 34845951900
+[size] 1920 1009
+[pos] -46 -30
+*-15.900000 34846147200 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] uart_bram_top_tb.
+[treeopen] uart_bram_top_tb.testbench.
+[sst_width] 254
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 305
+@28
+uart_bram_top_tb.clk
+uart_bram_top_tb.arstn
+uart_bram_top_tb.testbench.transmit.clk_en
+uart_bram_top_tb.testbench.rcv.clk_en
+@22
+uart_bram_top_tb.testbench.rcv.data[7:0]
+@28
+uart_bram_top_tb.testbench.FSM.rx_ready_clr
+uart_bram_top_tb.testbench.FSM.state[2:0]
+uart_bram_top_tb.testbench.FSM.rx_ready
+uart_bram_top_tb.testbench.FSM.bram_wr_en
+uart_bram_top_tb.testbench.FSM.rx_ready_clr
+@22
+uart_bram_top_tb.testbench.FSM.bram_address[9:0]
+uart_bram_top_tb.testbench.FSM.bram_wr_data[7:0]
+@23
+uart_bram_top_tb.testbench.FSM.bram_rd_data[7:0]
+@28
+[color] 1
+uart_bram_top_tb.tx_en
+@22
+uart_bram_top_tb.testbench.FSM.tx_data_in[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
